@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=50324005_002D9485_002D401e_002Dba10_002D9a45ae265aad/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DeletePerson_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FED9AA5A-3283-4CAD-9B5C-2A9E1A5C85F1::net8.0::Domain.UnitTest.RepositoryTests.DeletePerson_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FED9AA5A-3283-4CAD-9B5C-2A9E1A5C85F1::net8.0::Domain.UnitTest.RepositoryTests.UpdatePerson_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::722EFE78-5C4B-4A32-A18D-62EF2E42EE60::net8.0::Application.UnitTest.Person.Commands.CreatePersonCommandHandlerTests.Handle_ShouldCreateNewPerson&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::722EFE78-5C4B-4A32-A18D-62EF2E42EE60::net8.0::Application.UnitTest.Person.Commands.UpdatePersonCommandHandlerTests.Handle_ShouldUpdateExistingPerson&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::722EFE78-5C4B-4A32-A18D-62EF2E42EE60::net8.0::Application.UnitTest.Person.Commands.DeletePersonCommandHandlerTests.Handle_ShouldDeleteExistingPerson&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::722EFE78-5C4B-4A32-A18D-62EF2E42EE60::net8.0::Application.UnitTest.Person.Queries.GetAllPersonQueryHandlerTests.Handle_ShouldReturnAllPersons&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::722EFE78-5C4B-4A32-A18D-62EF2E42EE60::net8.0::Application.UnitTest.Person.Queries.PersonQueryHandlerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

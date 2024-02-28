@@ -1,0 +1,20 @@
+﻿using System.Reflection;
+using Application.Shared.Behavior;
+using FluentValidation;
+using MediatR;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace Application.Services;
+
+public static class ServiceExtensions
+{
+    public static void ConfigureApplicationApp(this IServiceCollection services)
+    {
+        services.AddMediatR(cfg =>
+            cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+        
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+    }
+}
